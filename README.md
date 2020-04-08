@@ -1,19 +1,19 @@
 # Grunt Demo
 
-演示 Grunt 工具自动执行 JavaScript 代码压缩的构建任务，即：grunt-contrib-uglify 插件的用法。
+演示 Grunt 工具自动执行图片压缩的构建任务，即：grunt-contrib-imagemin 插件的用法。
 
 执行下面的命令：
 
 ```bash
 git clone https://github.com/wangding/grunt-demo
-git checkout uglify
+git checkout imagemin
 npm install
 grunt
 ```
 
-结果在 js 目录下面，生成一个 jquery.min.js 文件。执行下面的命令来查看压缩效果：
+结果在 dist/images 目录下生成压缩后的图片文件。执行下面的命令查看压缩后的效果：
 
 ```bash
-ls -l js
+ls -l dist/images images
 ```
 
