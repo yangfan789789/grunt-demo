@@ -1,11 +1,18 @@
 module.exports = function (grunt) {
   grunt.initConfig({
-    cssmin: {  
-      'rectangle.min.css': 'rectangle.css'
+    htmlmin: {
+      options: {
+        collapseWhitespace: true,
+        preserveLineBreaks: false
+      },
+      files: {
+        src: './index.html',
+        dest: 'dist/index.html'
+      }
     }
   });
 
-  grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-contrib-htmlmin');
 
-  grunt.registerTask('default', ['cssmin']); 
+  grunt.registerTask('default', ['htmlmin']); 
 };

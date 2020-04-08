@@ -1,18 +1,18 @@
 # Grunt Demo
 
-演示 Grunt 工具自动执行 CSS 文件压缩的构建任务，即：grunt-contrib-cssmin 插件的用法。
+演示 Grunt 工具自动执行 HTML 代码压缩的构建任务，即：grunt-contrib-htmlmin 插件的用法。
 
 执行下面的命令：
 
 ```bash
 git clone https://github.com/wangding/grunt-demo
-git checkout cssmin
+git checkout htmlmin
 npm install
 grunt
 ```
 
-结果在当前目录下，原来的 CSS 代码文件 rectangle.css 被压缩成 rectangle.min.css 文件。运行下面的命令，来比较 CSS 文件压缩后的效果：
+结果在 dist 目录生成压缩过的 index.html，主要是删除了换行符。通过下面命令来查看压缩效果：
 
 ```bash
-ls -l *.css
+ls -l dist/index.html ./index.html
 ```
