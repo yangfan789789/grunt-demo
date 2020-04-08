@@ -1,27 +1,15 @@
-// module.exports = function (grunt) {
-//     grunt.initConfig({
-//       less: {
-//         compile: {
-//           files: { 'dist/compiled.css': 'css/*.less' }
-//         } 
-//       }
-//     });
-  
-//     grunt.loadNpmTasks('grunt-contrib-less');
-  
-//     grunt.registerTask('default', ['less:compile']);
-//   };
 module.exports = function (grunt) {
   grunt.initConfig({
-    htmlhint: {
-      options: {
-        htmlhintrc: '.htmlhintrc'
-      },
-      src: ['*.html']
+    uglify: {
+      release:{
+        files: {
+          'js/jquery.min.js': 'js/jquery.js'
+        }
+      }       
     }
   });
 
-  grunt.loadNpmTasks('grunt-htmlhint');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
 
-  grunt.registerTask('default', ['htmlhint']);
+  grunt.registerTask('default', ['uglify:release']);
 };
