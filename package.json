@@ -1,7 +1,7 @@
 {
   "name": "grunt-demo",
   "version": "1.0.0",
-  "description": "Grunt 试炼场",
+  "description": "图片压缩",
   "main": "index.js",
   "dependencies": {
     "grunt-contrib-cssmin": "^2.2.1"
@@ -15,12 +15,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wangding/grunt-demo.git"
+    "url": "git+https://github.com/yangfan789789/grunt-demo.git"
   },
-  "author": "wangding",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wangding/grunt-demo/issues"
+    "url": "https://github.com/yangfan789789/grunt-demo/issues"
   },
-  "homepage": "https://github.com/wangding/grunt-demo#readme"
+  "homepage": "https://github.com/yangfan789789/grunt-demo#readme"
 }
