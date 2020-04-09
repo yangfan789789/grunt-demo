@@ -1,21 +1,22 @@
 {
   "name": "grunt-demo",
   "version": "1.0.0",
-  "description": "Grunt 试炼场",
+  "description": "演示 Grunt 工具自动执行 CSS 文件压缩的构建任务，即：grunt-contrib-cssmin 插件的用法。",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wangding/grunt-demo.git"
+    "url": "git+https://github.com/yangfan789789/grunt-demo.git"
   },
-  "author": "wangding",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wangding/grunt-demo/issues"
+    "url": "https://github.com/yangfan789789/grunt-demo/issues"
   },
-  "homepage": "https://github.com/wangding/grunt-demo#readme",
+  "homepage": "https://github.com/yangfan789789/grunt-demo#readme",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-cssmin": "^2.2.1"
